@@ -61,7 +61,7 @@ public class testSelectSort {
         Sortedarr[4] = -2;
 
         /** add tests to check for this unit test **/
-        arr = sorted.basicSelectionSort(arr);
+				arr = sorted.basicSelectionSort(arr);
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
