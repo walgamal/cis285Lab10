@@ -99,18 +99,20 @@ public class testSelectSort {
         arr[3] = 10;
         arr[4] = 2;
 
-        int[] Sortedarr = new int[5];
-        Sortedarr[0] = 2;
-        Sortedarr[1] = 7;
-        Sortedarr[2] = 8;
-        Sortedarr[3] = 8;
-        Sortedarr[4] = 10;
+				int[] Sortedarr = new int[5];
+				Sortedarr[0] = 2;
+				Sortedarr[1] = 7;
+				Sortedarr[2] = 8;
+				Sortedarr[3] = 8;
+				Sortedarr[4] = 10;
 
-        /** add tests to check for this unit test **/
-        arr = sorted.basicSelectionSort(arr);
+				/** add tests to check for this unit test **/
+				arr = sorted.basicSelectionSort(arr);
 
-        for(int i = 0; i < arr.length; ++i) {
-        	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
-        }
+				for(int i = 0; i < arr.length; ++i) {
+					assertTrue("Not a match!", arr[i] == Sortedarr[i]);
+				}
+
+
     }
 }
