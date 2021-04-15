@@ -38,7 +38,11 @@ public class testSelectSort {
         Sortedarr[4] = 10;
 
         /** add tests to check for this unit test **/
+<<<<<<< HEAD
         arr = sorted.basicSelectionSort(arr);
+=======
+				arr = sorted.basicSelectionSort(arr);
+>>>>>>> PosNeg
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
@@ -61,7 +65,11 @@ public class testSelectSort {
         Sortedarr[4] = -2;
 
         /** add tests to check for this unit test **/
+<<<<<<< HEAD
         arr = sorted.basicSelectionSort(arr);
+=======
+				arr = sorted.basicSelectionSort(arr);
+>>>>>>> PosNeg
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
