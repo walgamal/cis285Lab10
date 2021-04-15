@@ -40,9 +40,12 @@ public class testSelectSort {
         /** add tests to check for this unit test **/
 <<<<<<< HEAD
         arr = sorted.basicSelectionSort(arr);
+<<<<<<< HEAD
 =======
 				arr = sorted.basicSelectionSort(arr);
 >>>>>>> PosNeg
+=======
+>>>>>>> MixDupe
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
@@ -67,9 +70,12 @@ public class testSelectSort {
         /** add tests to check for this unit test **/
 <<<<<<< HEAD
         arr = sorted.basicSelectionSort(arr);
+<<<<<<< HEAD
 =======
 				arr = sorted.basicSelectionSort(arr);
 >>>>>>> PosNeg
+=======
+>>>>>>> MixDupe
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
@@ -92,11 +98,19 @@ public class testSelectSort {
         Sortedarr[4] = 10;
 
         /** add tests to check for this unit test **/
+<<<<<<< HEAD
         arr = sorted.basicSelectionSort(arr);
 
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
         }
+=======
+				arr = sorted.basicSelectionSort(arr);
+
+				for(int i = 0; i < arr.length; ++i) {
+					assertTrue("Not a match!", arr[i] == Sortedarr[i]);
+				}
+>>>>>>> MixDupe
     }
 
     public void testDuplicates(){
@@ -107,6 +121,7 @@ public class testSelectSort {
         arr[3] = 10;
         arr[4] = 2;
 
+<<<<<<< HEAD
         int[] Sortedarr = new int[5];
         Sortedarr[0] = 2;
         Sortedarr[1] = 7;
@@ -120,5 +135,22 @@ public class testSelectSort {
         for(int i = 0; i < arr.length; ++i) {
         	assertTrue("Not a match!", arr[i] == Sortedarr[i]);
         }
+=======
+				int[] Sortedarr = new int[5];
+				Sortedarr[0] = 2;
+				Sortedarr[1] = 7;
+				Sortedarr[2] = 8;
+				Sortedarr[3] = 8;
+				Sortedarr[4] = 10;
+
+				/** add tests to check for this unit test **/
+				arr = sorted.basicSelectionSort(arr);
+
+				for(int i = 0; i < arr.length; ++i) {
+					assertTrue("Not a match!", arr[i] == Sortedarr[i]);
+				}
+
+
+>>>>>>> MixDupe
     }
 }
